@@ -1,0 +1,14 @@
+import  { memo } from "react"
+import Header from "../Components/Header";
+
+
+const Home = () => {
+
+    return(
+        <>
+          <Header/>
+        </>
+    )
+}
+
+export default memo(Home);
