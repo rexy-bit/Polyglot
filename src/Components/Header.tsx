@@ -37,7 +37,7 @@ const Header = () => {
 
             {showNav  &&
                <nav className="flex flex-col absolute top-[65px] bg-blue-900 w-[150px] gap-2 p-2 px-3 right-5 rounded-lg">
-                <a href="/#about" className="linkNav" >About</a>
+                <a href="/#about" className="linkNav" onClick={()=>setShowNav(false)}>About</a>
                 <a href="/#courses" className="linkNav" onClick={()=>setShowNav(false)}>Our Courses</a>
                 <a href="/#choose" className="linkNav" onClick={()=>setShowNav(false)}>Why Choose Us?</a>
                 <a href="/#testimonials" className="linkNav" onClick={()=>setShowNav(false)}>Testimonials</a>
