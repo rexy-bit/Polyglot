@@ -16,7 +16,7 @@ const Header = () => {
 
     }, [showNav]);
     return(
-        <header className="flex flex-row justify-between items-center px-5 text-white bg-blue-900 h-[60px] w-full max-[620px]:px-10 fixed top-0 shadow-2xl">
+        <header className="flex flex-row justify-between items-center px-5 text-white bg-blue-900 h-[60px] w-full max-[620px]:px-10 fixed top-0 shadow-2xl z-50">
             <div className="text-[1.4em] font-[poppins] font-black max-[800px]:text-[1.2em]">
                 <Link to="/">
                 Polyglot Academy
