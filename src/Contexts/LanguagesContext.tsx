@@ -19,6 +19,7 @@ export const LanguagesProvider = ({children} : {children : React.ReactNode}) => 
         {
             code : 0,
             name : 'English for beginners',
+            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761947140/edf8d658-d770-4b58-9054-aca1ee0c7c86.png',
             level : 'Beginner',
             shortDescrition : 'English for beginners is a complete programm for anyone who\'s interested in learning English, regardless of their background or prior experience.',
             longDescription : "In our English for Beginners course, you'll learn important language skills like grammar, new words, speaking, listening, and understanding what you read. Each part of the course focuses on a different skill. You'll follow clear lessons, do activities, and practice to improve. This course is made especially for people who are just starting to learn English. We start with the basics and gradually move to harder things, so it's easy to follow along.",
@@ -29,27 +30,27 @@ export const LanguagesProvider = ({children} : {children : React.ReactNode}) => 
             purchasePrice : 5500,
             why : [
                 {
-                icon : '',
+                icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942065/c72d22ab-c850-42a4-919a-524179a7d285.png',
                 title : 'From the beginning to the end!',
                 description : "From understanding basic sentence structures to mastering verb tenses and building vocabulary, our English for Beginners Grammar Course covers all the essentials to kickstart your language learning journey and build a solid foundation for fluency!"
                 },{
-                    icon : '',
+                    icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942192/51159c56-5451-4de9-ad47-117d33dc1e84.png',
                     title : '100% online content',
                     description : "The English for Begginers program is 100% online, available 24/7 and designed to be completed in 1 week (or less, the choice is yours)."
                 },{
-                    icon : '',
+                    icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942293/215eac61-c9bc-4321-92cc-58e29cdf0b6d.png',
                     title : 'Get into practice!',
                     description : "English for Begginers is not only theoretical training, it is also practical and concrete application of the lessons taught."
                 },{
-                    icon : '',
+                    icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942396/cc7d233f-7209-48b4-8b20-5f8f103f7801.png',
                     title : 'Interactive quizzes',
                     description : "You'll gain access to a comprehensive library of over 1000 quizzes meticulously crafted by your instructor, designed to reinforce your grasp of the lessons covered in this course."
                 },{
-                    icon : '',
+                    icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942581/951acdd6-7cf6-409f-941d-07df11598ad6.png',
                     title : 'A private community',
                     description : "Through the private community, you will be able to share, exchange and network with thousands of determined students."
                 },{
-                    icon : '',
+                    icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942616/04c624b3-b500-46bc-a4e1-ca7a9bbeb29b.png',
                     title : 'Advanced method',
                     description : "You'll not only go through some english lessons, but you'll discover the science behind learning the language and aquiring it."
                 }
@@ -94,7 +95,83 @@ export const LanguagesProvider = ({children} : {children : React.ReactNode}) => 
                 }
             ]
 
+        },{
+    code : 1,
+    name : 'English Speaking',
+    icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761947268/3cf510aa-8a98-41d1-a899-aaa9aa0b0b7d.png',
+    level : 'Intermediate',
+    shortDescrition : "English Speaking is designed for learners who already know the basics and want to improve their fluency, pronunciation, and communication skills in real-life situations.",
+    longDescription : "Our English Speaking Intermediate program focuses on helping you speak naturally and confidently. Through real-life dialogues, role-plays, and interactive sessions, you’ll learn how to express yourself clearly, use idiomatic expressions, and improve your pronunciation. You’ll also practice listening and responding quickly, preparing you for both casual and professional conversations. This course is ideal for learners who already have basic English knowledge and wish to reach the next level in their speaking journey.",
+    attractiveText : "Take your English to the next level with our Intermediate Speaking Course! Gain real confidence in conversations, discussions, and presentations. Learn from real-world examples and interactive speaking sessions that make practice engaging and effective!",
+    duration : '6 Weeks',
+    type : 'On site',
+    students : 20,
+    purchasePrice : 6500,
+    why : [
+        {
+            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942065/c72d22ab-c850-42a4-919a-524179a7d285.png',
+            title : 'Fluency through practice!',
+            description : "Through guided conversation sessions, pronunciation drills, and role-play exercises, our English Speaking program helps you speak more fluently and naturally. You’ll learn to think in English and communicate with ease in various everyday and professional situations."
+        },{
+            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942192/51159c56-5451-4de9-ad47-117d33dc1e84.png',
+            title : 'In-person learning advantage',
+            description : "Experience dynamic classroom interactions where you can practice English face-to-face, receive instant feedback, and develop your speaking confidence in a supportive learning environment."
+        },{
+            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942293/215eac61-c9bc-4321-92cc-58e29cdf0b6d.png',
+            title : 'Speak with confidence!',
+            description : "This program focuses on real-world communication rather than memorization. You’ll engage in practical discussions and real scenarios designed to help you use English effectively and naturally."
+        },{
+            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761946222/50f3fd6b-3564-4487-89c9-db5abd2d1b25.png',
+            title : 'Interactive group activities',
+            description : "Participate in group discussions, debates, and storytelling sessions that enhance teamwork, confidence, and critical thinking—all in English!"
+        },{
+            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942581/951acdd6-7cf6-409f-941d-07df11598ad6.png',
+            title : 'Supportive speaking community',
+            description : "Join a motivated community of English learners where you can practice daily, share your progress, and receive encouragement from peers and mentors."
+        },{
+            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942616/04c624b3-b500-46bc-a4e1-ca7a9bbeb29b.png',
+            title : 'Science-backed learning method',
+            description : "Our approach combines neuroscience and language acquisition science to help you speak more naturally, remember longer, and express yourself more accurately."
         }
+    ],
+    faq : [
+        {
+            question : 'What will I learn in this course?',
+            answer : "You’ll learn to speak English with greater fluency and accuracy, use idioms and expressions naturally, and improve pronunciation and listening comprehension. The course focuses heavily on real-world communication and confidence building."
+        }, {
+            question : 'Who is this course for?',
+            answer : "This course is ideal for learners who already have a basic understanding of English grammar and vocabulary and now want to improve their speaking and listening skills for personal or professional use."
+        }, {
+            question : 'How is the course structured?',
+            answer : "The course includes weekly live sessions, group activities, conversation practices, and real-time feedback. Each week introduces new communication themes, vocabulary, and speaking challenges."
+        }, {
+            question : 'Is this course only in person?',
+            answer : "Yes, this program is designed to be delivered in person to maximize your speaking practice and real-time interaction with instructors and classmates."
+        }, {
+            question : 'Will there be assessments or feedback?',
+            answer : "Yes! You’ll receive personalized feedback from instructors on your pronunciation, fluency, and accuracy after every speaking task and activity."
+        }, {
+            question : 'What makes this course unique?',
+            answer : "Unlike typical English courses, this one focuses exclusively on communication skills. You’ll spend most of your time speaking, listening, and thinking in English, supported by a scientific learning approach and constant instructor feedback."
+        }, {
+            question : 'Do I receive a certificate at the end?',
+            answer : "Yes, upon completing all sessions and assignments, you will receive a certificate of completion recognizing your progress and your ability to communicate effectively in English."
+        }
+    ],
+    testomonials : [
+        {
+            name : "Hassan Merabet",
+            testimonial : "Before joining the English Speaking program, I understood English but couldn’t express myself well. After just a few weeks, I can confidently speak and hold real conversations!"
+        },{
+            name : "Leila Mansouri",
+            testimonial : "The in-person classes made a huge difference for me. Speaking face-to-face with others helped me overcome my fear of mistakes and improve my fluency naturally."
+        },{
+            name : "Karim Bouzid",
+            testimonial : "Polyglot’s intermediate course pushed me to speak more and think in English. The teachers correct you kindly and give great advice. I feel much more confident now!"
+        }
+    ]
+}
+
 
     ];
 

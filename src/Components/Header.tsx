@@ -1,6 +1,6 @@
 import  { memo, useEffect } from "react"
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 
 const Header = () => {
@@ -18,9 +18,9 @@ const Header = () => {
     return(
         <header className="flex flex-row justify-between items-center px-5 text-white bg-blue-900 h-[60px] w-full max-[620px]:px-10 fixed top-0 shadow-2xl z-50">
             <div className="text-[1.4em] font-[poppins] font-black max-[800px]:text-[1.2em]">
-                <Link to="/">
+                <a href="/#hero">
                 Polyglot Academy
-                </Link>
+                </a>
             </div>
 
          <div className="hidden max-[620px]:block cursor-pointer text-[2em] font-black"

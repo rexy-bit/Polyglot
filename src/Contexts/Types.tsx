@@ -19,6 +19,7 @@ export interface Program{
     code : number;
     name : string;
     level : string;
+    icon : string;
     shortDescrition : string;
     longDescription : string;
     attractiveText : string;
