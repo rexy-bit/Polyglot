@@ -18,7 +18,7 @@ export const LanguagesProvider = ({children} : {children : React.ReactNode}) => 
     const programs : Program[] = [
         {
             code : 0,
-            name : 'English for beginners',
+            name : 'English For Beginners',
             icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761947140/edf8d658-d770-4b58-9054-aca1ee0c7c86.png',
             level : 'Beginner',
             shortDescrition : 'English for beginners is a complete programm for anyone who\'s interested in learning English, regardless of their background or prior experience.',

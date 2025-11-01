@@ -1,10 +1,12 @@
 import { memo } from "react"
 import { useLanguagesContext } from "../Contexts/LanguagesContext";
+import { useNavigate } from "react-router-dom";
 
 const Programs  = () => {
 
     const {programs} = useLanguagesContext();
-    
+    const navigate = useNavigate();
+
     return(
 
         <section className="bg-[#001f54] flex flex-col justify-center items-center w-full py-10 h-full" id="courses">
@@ -22,7 +24,10 @@ const Programs  = () => {
                                 {p.shortDescrition}
                             </p>
 
-                            <button className="bg-[#001f54] text-gray-100 absolute bottom-5 px-5 py-2 font-bold text-[15px] rounded-xl cursor-pointer transition-transform duration-300 hover:scale-105 active:scale-95">Learn More</button>
+                            <button 
+                            className="bg-[#001f54] text-gray-100 absolute bottom-5 px-5 py-2 font-bold text-[15px] rounded-xl cursor-pointer transition-transform duration-300 hover:scale-105 active:scale-95" 
+                            onClick={()=>navigate(`/course/${p.code}`)}
+                            >Learn More</button>
                         </div>
                     )
                 })}

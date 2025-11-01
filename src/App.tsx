@@ -4,6 +4,7 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
 import { LanguagesProvider } from './Contexts/LanguagesContext'
+import Course from './Pages/Course'
 
 function App() {
   
@@ -12,6 +13,10 @@ function App() {
     <Routes>
        <Route path="/" element={
         <Home/>
+       }/>
+
+       <Route path='/course/:code' element={
+        <Course/>
        }/>
     </Routes>
     </LanguagesProvider>
