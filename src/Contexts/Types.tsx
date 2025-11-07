@@ -30,6 +30,6 @@ export interface Program{
     why : WhyType[];
     faq : Faq[];
     testomonials : Testimonials[];
-
+    advantages : string[]
      
 }

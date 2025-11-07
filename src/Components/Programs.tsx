@@ -25,7 +25,7 @@ const Programs  = () => {
                             </p>
 
                             <button 
-                            className="bg-[#001f54] text-gray-100 absolute bottom-5 px-5 py-2 font-bold text-[15px] rounded-xl cursor-pointer transition-transform duration-300 hover:scale-105 active:scale-95" 
+                            className="bg-[#001f54] text-gray-100 absolute bottom-5 px-5 py-2 font-bold text-[15px] rounded-xl cursor-pointer transition-transform duration-300 hover:scale-105 active:scale-90" 
                             onClick={()=>navigate(`/course/${p.code}`)}
                             >Learn More</button>
                         </div>

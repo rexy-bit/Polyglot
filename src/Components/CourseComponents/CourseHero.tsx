@@ -19,6 +19,16 @@ const CourseHero = ({program} : {program : Program}) => {
 
             <img src={program.icon} className="w-80 max-[1200px]:w-60" alt="" />
           </div>
+
+          <div data-aos="fade-up" className="mt-40 flex flex-row justify-center items-center gap-50">
+            {program.advantages.map((ad)=>{
+              return(
+                <div className="w-[200px] text-center text-[1.3em] text-gray-100 font-black leading-5  h-[100px] flex items-center rounded-lg border-2 border-gray-100 justify-center transition-transform duration-300 hover:scale-105">
+                  <p className="w-[120px]">{ad}</p>
+                  </div>
+              )
+            })}
+          </div>
         </section>
     )
 }

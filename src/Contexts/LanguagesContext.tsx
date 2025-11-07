@@ -25,6 +25,7 @@ export const LanguagesProvider = ({children} : {children : React.ReactNode}) => 
             longDescription : "In our English for Beginners course, you'll learn important language skills like grammar, new words, speaking, listening, and understanding what you read. Each part of the course focuses on a different skill. You'll follow clear lessons, do activities, and practice to improve. This course is made especially for people who are just starting to learn English. We start with the basics and gradually move to harder things, so it's easy to follow along.",
             attractiveText : "Start your journey to English fluency with our Beginner's English Course. Perfect for new learners, this course focuses on building a strong foundation. Gain confidence with our lessons, interactive quizzes, and games. Join us and master English today!",
             duration : '5 Weeks',
+            advantages : ["30+ Lessons on video", "Unlimited access and immediate", "1000+ Quizzes and games"],
             type : 'Online',
             students : 25,
             purchasePrice : 5500,
@@ -107,6 +108,7 @@ export const LanguagesProvider = ({children} : {children : React.ReactNode}) => 
     type : 'On site',
     students : 20,
     purchasePrice : 6500,
+    advantages : ["5 Weeks of Studying", "On-site Classes", "25 Students per group"],
     why : [
         {
             icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942065/c72d22ab-c850-42a4-919a-524179a7d285.png',
