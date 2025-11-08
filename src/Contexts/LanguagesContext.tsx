@@ -21,6 +21,7 @@ export const LanguagesProvider = ({children} : {children : React.ReactNode}) => 
             name : 'English For Beginners',
             icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761947140/edf8d658-d770-4b58-9054-aca1ee0c7c86.png',
             level : 'Beginner',
+            perfectText : "The perfect English course for beginners",
             shortDescrition : 'English for beginners is a complete programm for anyone who\'s interested in learning English, regardless of their background or prior experience.',
             longDescription : "In our English for Beginners course, you'll learn important language skills like grammar, new words, speaking, listening, and understanding what you read. Each part of the course focuses on a different skill. You'll follow clear lessons, do activities, and practice to improve. This course is made especially for people who are just starting to learn English. We start with the basics and gradually move to harder things, so it's easy to follow along.",
             attractiveText : "Start your journey to English fluency with our Beginner's English Course. Perfect for new learners, this course focuses on building a strong foundation. Gain confidence with our lessons, interactive quizzes, and games. Join us and master English today!",
@@ -28,6 +29,7 @@ export const LanguagesProvider = ({children} : {children : React.ReactNode}) => 
             advantages : ["30+ Lessons on video", "Unlimited access and immediate", "1000+ Quizzes and games"],
             type : 'Online',
             students : 25,
+            perfectIcon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1762638659/undraw_destination_fkst_yqpapr.png',
             purchasePrice : 5500,
             why : [
                 {
@@ -100,7 +102,9 @@ export const LanguagesProvider = ({children} : {children : React.ReactNode}) => 
     code : 1,
     name : 'English Speaking',
     icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761947268/3cf510aa-8a98-41d1-a899-aaa9aa0b0b7d.png',
+    perfectText : 'The perfect program to Speak English Fluently',
     level : 'Intermediate',
+     perfectIcon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1762638659/undraw_destination_fkst_yqpapr.png',
     shortDescrition : "English Speaking is designed for learners who already know the basics and want to improve their fluency, pronunciation, and communication skills in real-life situations.",
     longDescription : "Our English Speaking Intermediate program focuses on helping you speak naturally and confidently. Through real-life dialogues, role-plays, and interactive sessions, you’ll learn how to express yourself clearly, use idiomatic expressions, and improve your pronunciation. You’ll also practice listening and responding quickly, preparing you for both casual and professional conversations. This course is ideal for learners who already have basic English knowledge and wish to reach the next level in their speaking journey.",
     attractiveText : "Take your English to the next level with our Intermediate Speaking Course! Gain real confidence in conversations, discussions, and presentations. Learn from real-world examples and interactive speaking sessions that make practice engaging and effective!",

@@ -1,9 +1,12 @@
 import { memo } from "react"
 import type { Program } from "../../Contexts/Types"
+import AOS from "aos";
+import Why from "./Why";
 const CourseHero = ({program} : {program : Program}) => {
 
     return(
 
+        <>
         <section className="flex flex-col w-full justify-center items-center py-10">
           <div className="flex flex-row justify-between w-full items-center px-30 max-[1200px]:px-10 max-[600px]:flex-col max-[600px]:gap-10">
             <div className="flex flex-col max-[600px]:items-center">
@@ -20,16 +23,20 @@ const CourseHero = ({program} : {program : Program}) => {
             <img src={program.icon} className="w-80 max-[1200px]:w-60" alt="" />
           </div>
 
-          <div data-aos="fade-up" className="mt-40 flex flex-row justify-center items-center gap-50">
+          <div className="mt-40 mb-50 flex flex-row justify-center items-center gap-50 max-[1050px]:gap-30 max-[920px]:gap-20 max-[820px]:gap-10 max-[750px]:flex-col">
             {program.advantages.map((ad)=>{
               return(
-                <div className="w-[200px] text-center text-[1.3em] text-gray-100 font-black leading-5  h-[100px] flex items-center rounded-lg border-2 border-gray-100 justify-center transition-transform duration-300 hover:scale-105">
+                <div  className="w-[200px] text-center text-[1.3em] text-gray-100 font-black leading-5  h-[100px] flex items-center rounded-lg border-2 border-gray-100 justify-center transition-transform duration-300 hover:scale-105">
                   <p className="w-[120px]">{ad}</p>
                   </div>
               )
             })}
           </div>
         </section>
+
+
+          <Why program={program}/>
+        </>
     )
 }
 
