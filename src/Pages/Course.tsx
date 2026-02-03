@@ -3,6 +3,8 @@ import Header from "../Components/Header";
 import { useParams } from "react-router-dom";
 import { useLanguagesContext } from "../Contexts/LanguagesContext";
 import CourseHero from "../Components/CourseComponents/CourseHero";
+import Testimonials from "../Components/CourseComponents/Testimonials";
+import Faq from "../Components/CourseComponents/Faq";
 
 
 const Course = () => {
@@ -21,6 +23,8 @@ const Course = () => {
                : 
                  <>
                     <CourseHero program={course}/>
+                    <Testimonials course={course}/>
+                    <Faq course={course}/>
                  </>
             }
         </>

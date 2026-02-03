@@ -33,27 +33,27 @@ export const LanguagesProvider = ({children} : {children : React.ReactNode}) => 
             purchasePrice : 5500,
             why : [
                 {
-                icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942065/c72d22ab-c850-42a4-919a-524179a7d285.png',
+                icon : "fa-solid fa-flag-checkered",
                 title : 'From the beginning to the end!',
                 description : "From understanding basic sentence structures to mastering verb tenses and building vocabulary, our English for Beginners Grammar Course covers all the essentials to kickstart your language learning journey and build a solid foundation for fluency!"
                 },{
-                    icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942192/51159c56-5451-4de9-ad47-117d33dc1e84.png',
+                    icon : "fa-solid fa-laptop",
                     title : '100% online content',
                     description : "The English for Begginers program is 100% online, available 24/7 and designed to be completed in 1 week (or less, the choice is yours)."
                 },{
-                    icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942293/215eac61-c9bc-4321-92cc-58e29cdf0b6d.png',
+                    icon : "fa-solid fa-list-check",
                     title : 'Get into practice!',
                     description : "English for Begginers is not only theoretical training, it is also practical and concrete application of the lessons taught."
                 },{
-                    icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942396/cc7d233f-7209-48b4-8b20-5f8f103f7801.png',
+                    icon : "fa-solid fa-clipboard-question",
                     title : 'Interactive quizzes',
                     description : "You'll gain access to a comprehensive library of over 1000 quizzes meticulously crafted by your instructor, designed to reinforce your grasp of the lessons covered in this course."
                 },{
-                    icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942581/951acdd6-7cf6-409f-941d-07df11598ad6.png',
+                    icon : "fa-solid fa-people-line",
                     title : 'A private community',
                     description : "Through the private community, you will be able to share, exchange and network with thousands of determined students."
                 },{
-                    icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942616/04c624b3-b500-46bc-a4e1-ca7a9bbeb29b.png',
+                    icon : "fa-solid fa-graduation-cap",
                     title : 'Advanced method',
                     description : "You'll not only go through some english lessons, but you'll discover the science behind learning the language and aquiring it."
                 }
@@ -115,27 +115,27 @@ export const LanguagesProvider = ({children} : {children : React.ReactNode}) => 
     advantages : ["5 Weeks of Studying", "On-site Classes", "25 Students per group"],
     why : [
         {
-            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942065/c72d22ab-c850-42a4-919a-524179a7d285.png',
+            icon : "fa-solid fa-list-check",
             title : 'Fluency through practice!',
             description : "Through guided conversation sessions, pronunciation drills, and role-play exercises, our English Speaking program helps you speak more fluently and naturally. You’ll learn to think in English and communicate with ease in various everyday and professional situations."
         },{
-            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942192/51159c56-5451-4de9-ad47-117d33dc1e84.png',
+            icon : "fa-solid fa-person-arrow-down-to-line",
             title : 'In-person learning advantage',
             description : "Experience dynamic classroom interactions where you can practice English face-to-face, receive instant feedback, and develop your speaking confidence in a supportive learning environment."
         },{
-            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942293/215eac61-c9bc-4321-92cc-58e29cdf0b6d.png',
+            icon : "fa-solid fa-volume-high",
             title : 'Speak with confidence!',
             description : "This program focuses on real-world communication rather than memorization. You’ll engage in practical discussions and real scenarios designed to help you use English effectively and naturally."
         },{
-            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761946222/50f3fd6b-3564-4487-89c9-db5abd2d1b25.png',
+            icon : "fa-solid fa-users-rays",
             title : 'Interactive group activities',
             description : "Participate in group discussions, debates, and storytelling sessions that enhance teamwork, confidence, and critical thinking—all in English!"
         },{
-            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942581/951acdd6-7cf6-409f-941d-07df11598ad6.png',
+            icon : "fa-solid fa-users-between-lines",
             title : 'Supportive speaking community',
             description : "Join a motivated community of English learners where you can practice daily, share your progress, and receive encouragement from peers and mentors."
         },{
-            icon : 'https://res.cloudinary.com/dub4fhabm/image/upload/v1761942616/04c624b3-b500-46bc-a4e1-ca7a9bbeb29b.png',
+            icon : "fa-solid fa-graduation-cap",
             title : 'Science-backed learning method',
             description : "Our approach combines neuroscience and language acquisition science to help you speak more naturally, remember longer, and express yourself more accurately."
         }

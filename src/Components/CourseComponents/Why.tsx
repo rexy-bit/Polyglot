@@ -1,6 +1,6 @@
 import  { memo } from "react"
 import type { Program } from "../../Contexts/Types"
-import AOS from "aos";
+
 const Why = ({program} : {program : Program}) => {
 
 
@@ -16,6 +16,31 @@ const Why = ({program} : {program : Program}) => {
 
                <img  src={program.perfectIcon} alt="" className="w-70 " />
             </section>        
+
+            <div className="flex flex-wrap justify-center items-center gap-10 mt-10 mb-10">
+                <div className=" bg-[#001f54] px-3 py-2 rounded-[10px] text-white text-[15px] font-[600] transition-transform duration-300 hover:scale-110 cursor-pointer">Duration: {program.duration}</div>
+                <div className=" bg-[#001f54] px-3 py-2 rounded-[10px] text-white text-[15px] font-[600] transition-transform duration-300 hover:scale-110 cursor-pointer">{program.students} Students per group</div>
+                <div className=" bg-[#001f54] px-3 py-2 rounded-[10px] text-white text-[15px] font-[600] transition-transform duration-300 hover:scale-110 cursor-pointer">{program.type}</div>
+            </div>
+
+            <div className="flex flex-col justify-center items-center w-full mt-5">
+                <h1 className="font-bold text-[2em] text-center">Why Choose {program.name}</h1>
+
+                <div className="flex flex-wrap justify-center gap-10 mt-15 items-center px-10 mb-10">
+                    {program.why.map((w)=>{
+                        return(
+                            <div key={w.title} className="w-[280px] flex flex-col bg-gray-100 p-5 border-5 border-[#001f54] h-[330px] rounded-[10px] gap-3 transition-transform duration-300 hover:scale-105 cursor-pointer">
+
+                               <i className={`${w.icon} text-[2em]`}></i>
+                                <h3 className="text-[1.2em] font-[600] text-gray-800">{w.title}</h3>
+                                <p className="text-[14px] text-gray-700 leading-5">
+                                    {w.description}
+                                </p>
+                            </div>
+                        )
+                    })}
+                </div>
+            </div>
         </section>
 
     )
