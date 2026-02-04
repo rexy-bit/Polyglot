@@ -8,7 +8,7 @@ const CourseHero = ({program} : {program : Program}) => {
 
         <>
         <section className="flex flex-col w-full justify-center items-center py-10">
-          <div className="flex flex-row justify-between w-full items-center px-30 max-[1200px]:px-10 max-[600px]:flex-col max-[600px]:gap-10">
+          <div className="flex flex-row justify-between w-full items-center px-30 max-[1200px]:px-10 max-[600px]:flex-col max-[600px]:gap-10"> 
             <div className="flex flex-col max-[600px]:items-center">
                 <h1 className="text-white text-[3em] font-black max-[850px]:text-[2em] max-[600px]:text-center">{program.name}</h1>
                 <p className="text-gray-100 w-[700px] text-[17px] max-[1200px]:w-[500px] max-[850px]:w-[300px] max-[600px]:text-center max-[600px]:mt-5">{program.shortDescrition}</p>

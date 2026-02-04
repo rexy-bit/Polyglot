@@ -14,6 +14,6 @@ html{
 
 @layer components{
     .linkNav{
-      @apply text-[14px] text-white max-[700px]:text-[12px]
+      @apply text-[14px] text-white max-[700px]:text-[12px] font-[600]
     }
 }

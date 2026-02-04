@@ -17,7 +17,7 @@ const Why = ({program} : {program : Program}) => {
                <img  src={program.perfectIcon} alt="" className="w-70 " />
             </section>        
 
-            <div className="flex flex-wrap justify-center items-center gap-10 mt-10 mb-10">
+            <div className="flex flex-row justify-center items-center gap-7 max-[600px]:flex-col mt-10 mb-10">
                 <div className=" bg-[#001f54] px-3 py-2 rounded-[10px] text-white text-[15px] font-[600] transition-transform duration-300 hover:scale-110 cursor-pointer">Duration: {program.duration}</div>
                 <div className=" bg-[#001f54] px-3 py-2 rounded-[10px] text-white text-[15px] font-[600] transition-transform duration-300 hover:scale-110 cursor-pointer">{program.students} Students per group</div>
                 <div className=" bg-[#001f54] px-3 py-2 rounded-[10px] text-white text-[15px] font-[600] transition-transform duration-300 hover:scale-110 cursor-pointer">{program.type}</div>

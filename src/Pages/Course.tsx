@@ -5,6 +5,7 @@ import { useLanguagesContext } from "../Contexts/LanguagesContext";
 import CourseHero from "../Components/CourseComponents/CourseHero";
 import Testimonials from "../Components/CourseComponents/Testimonials";
 import Faq from "../Components/CourseComponents/Faq";
+import FormSend from "../Components/CourseComponents/FormSend";
 
 
 const Course = () => {
@@ -25,6 +26,7 @@ const Course = () => {
                     <CourseHero program={course}/>
                     <Testimonials course={course}/>
                     <Faq course={course}/>
+                    <FormSend program={course}/>
                  </>
             }
         </>

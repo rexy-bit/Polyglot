@@ -13,7 +13,7 @@ const Programs  = () => {
 
              <h1 data-aos="fade-up" className="text-gray-100 text-[2.5em] w-[600px] text-center leading-10 mt-15 font-black max-[700px]:w-[400px] max-[700px]:text-[2em] max-[450px]:w-[300px]">Language Courses Designed for Your Success</h1>
 
-             <div className="flex flex-wrap justify-center items-center gap-10 mt-15" data-aos="fade-up">
+             <div className="flex flex-wrap justify-center items-center gap-10 mt-15 mb-10" data-aos="fade-up">
                 {programs.map((p)=>{
                     return(
                         <div className="w-[300px] bg-gray-200 h-[350px] flex flex-col items-center relative rounded-xl transition-transform duration-300 hover:scale-105">
