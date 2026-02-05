@@ -1,5 +1,6 @@
 import  { memo, useEffect } from "react"
 import React from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 
 
@@ -36,8 +37,13 @@ const Header = () => {
                 <a href="/#contact" className="linkNav">Contact Us</a>
             </nav>
 
+            <AnimatePresence>
             {showNav  &&
-               <nav className="flex flex-col absolute top-[65px] bg-blue-900 w-[150px] gap-2 p-2 px-3 right-5 rounded-lg">
+               <motion.nav
+      initial={{ x: 200, opacity: 0 }}   // commence à 200px à droite et invisible
+      animate={{ x: 0, opacity: 1 }}    // se déplace à sa position et devient visible
+      exit={{ x: 200, opacity: 0 }}     // lorsqu’on ferme, retourne à droite et disparaît
+      transition={{ type: "spring", stiffness: 300, damping: 30 }}  className="hidden fixed top-[60px] right-0 w-[150px] h-[calc(100%-60px)]  bg-blue-900 max-[620px]:flex flex-col pt-5 pl-3 gap-4 z-50 text-[1.5em]">
                 <a href="/#about" className="linkNav" onClick={()=>setShowNav(false)}>About</a>
                 <a href="/#courses" className="linkNav" onClick={()=>setShowNav(false)}>Our Courses</a>
                 <a href="/#why" className="linkNav" onClick={()=>setShowNav(false)}>Why Choose Us?</a>
@@ -48,8 +54,9 @@ const Header = () => {
             <div className="absolute top-1 right-2 text-[1em] font-bold cursor-pointer transition-opacity duration-200 hover:opacity-80 active:opacity-60" onClick={()=>setShowNav(false)}>
                     &#10005;
                 </div>
-               </nav>
+               </motion.nav>
             }
+            </AnimatePresence>
         </header>
     )
 }
