@@ -6,6 +6,7 @@ import CourseHero from "../Components/CourseComponents/CourseHero";
 import Testimonials from "../Components/CourseComponents/Testimonials";
 import Faq from "../Components/CourseComponents/Faq";
 import FormSend from "../Components/CourseComponents/FormSend";
+import Footer from "../Components/Footer";
 
 
 const Course = () => {
@@ -27,6 +28,7 @@ const Course = () => {
                     <Testimonials course={course}/>
                     <Faq course={course}/>
                     <FormSend program={course}/>
+                    <Footer/>
                  </>
             }
         </>

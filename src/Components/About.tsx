@@ -4,6 +4,7 @@ import Counter from "./Counter";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -25,6 +26,8 @@ const About = () => {
       useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
+
+  const navigate = useNavigate();
     
 
     return(
@@ -101,6 +104,10 @@ const About = () => {
                         Contact Us
                     </a>
                 </div>
+
+                <button className="mt-10 text-[14px] font-bold text-white bg-blue-700 px-5 py-2 border border-blue-500 cursor-pointer rounded-full shadow-[0_0_20px_3px_rgba(59,130,246,0.5)] hover:shadow-[0_0_25px_5px_rgba(59,130,246,0.8)] transition-all duration-300"
+                onClick={()=>navigate("/hiring")}
+                >Get Hired!</button>
 
 
             

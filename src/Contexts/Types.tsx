@@ -35,3 +35,13 @@ export interface Program{
     perfectIcon : string;
      
 }
+
+
+export interface Position{
+    id: number;
+    title: string;
+    format: string; 
+    schedule: string;
+    description: string;
+    longDescription : string;
+}

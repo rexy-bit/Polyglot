@@ -8,6 +8,7 @@ import WhyChoose from "../Components/WhyChoose";
 import MainTestimonials from "../Components/MainTestimonials";
 import MainFaq from "../Components/MainFaq";
 import Contact from "../Components/Contact";
+import Footer from "../Components/Footer";
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
           <MainTestimonials/>
           <MainFaq/>
           <Contact/>
+          <Footer/>
         </>
     )
 }

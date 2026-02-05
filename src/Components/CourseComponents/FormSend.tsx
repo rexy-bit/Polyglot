@@ -56,7 +56,7 @@ const FormSend = ({program} : {program : Program}) => {
 
     return(
 
-        <section className="flex flex-col justify-center items-center w-full">
+        <section className="flex flex-col justify-center items-center w-full" id="join">
 
               
            <h1 className="mt-5 text-[2.2em] font-bold text-gray-100 text-center">Join Training Now!</h1>

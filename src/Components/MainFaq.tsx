@@ -29,7 +29,7 @@ const MainFaq = () => {
 
 
     return(
-        <section className="flex flex-col justify-center items-center w-full bg-gray-100">
+        <section className="flex flex-col justify-center items-center w-full bg-gray-100" id="faq">
             <h1 className="mt-15 text-blue-900 font-bold text-[2.5em]">FAQ</h1>
 
             <div className="flex flex-col mt-10 mb-15">

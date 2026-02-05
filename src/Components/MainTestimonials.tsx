@@ -24,7 +24,7 @@ const MainTestimonials = () => {
 ];
 
     return(
-        <section className="flex flex-col justify-center items-center w-full">
+        <section className="flex flex-col justify-center items-center w-full" id="testimonials">
 
              <h1 className="mt-15 text-gray-100 font-bold text-[2em] text-center">Testimonials</h1>
               <h3 className="mt-5 text-gray-100 font-bold text-[1.3em] text-center">They Reached their objectives</h3>

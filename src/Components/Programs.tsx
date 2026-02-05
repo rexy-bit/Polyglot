@@ -13,8 +13,8 @@ const Programs  = () => {
 
              <h1 data-aos="fade-up" className="text-gray-100 text-[2.5em] w-[600px] text-center leading-10 mt-15 font-black max-[700px]:w-[400px] max-[700px]:text-[2em] max-[450px]:w-[300px]">Language Courses Designed for Your Success</h1>
 
-             <div className="flex flex-wrap justify-center items-center gap-10 mt-15 mb-10" data-aos="fade-up">
-                {programs.map((p)=>{
+             <div className="flex flex-wrap justify-center items-center gap-10 mt-15 " data-aos="fade-up">
+                {programs.slice(0,6).map((p)=>{
                     return(
                         <div className="w-[300px] bg-gray-200 h-[350px] flex flex-col items-center relative rounded-xl transition-transform duration-300 hover:scale-105">
                             <div className="absolute left-3 top-2 bg-[#001f54] text-gray-50 px-2 py-1 rounded-full text-[14px] font-bold">{p.level} ({p.type})</div>
@@ -32,6 +32,10 @@ const Programs  = () => {
                     )
                 })}
              </div>
+
+                             <button className="mt-10 mb-10 text-[14px] font-bold text-white bg-blue-700 px-5 py-2 border border-blue-500 cursor-pointer rounded-full shadow-[0_0_20px_3px_rgba(59,130,246,0.5)] hover:shadow-[0_0_25px_5px_rgba(59,130,246,0.8)] transition-all duration-300"
+                onClick={()=>navigate("/all")}
+                >View All Courses</button>
 
              
         </section>

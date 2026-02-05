@@ -39,7 +39,7 @@ const WhyChoose = () => {
 
 
     return(
-        <section className="flex flex-col justify-center items-center w-full bg-gray-100">
+        <section className="flex flex-col justify-center items-center w-full bg-gray-100" id="why">
              <h1 className="text-[#001f54] font-black text-[2.2em] mt-15 text-center">Why Choose Polyglot Academy</h1>
 
            <div className="flex flex-wrap justify-center items-center gap-10 mt-10 mb-10 px-10">
